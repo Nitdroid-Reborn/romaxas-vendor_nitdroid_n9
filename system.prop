@@ -3,6 +3,6 @@
 #
 
 ro.sf.lcd_density=240
-ro.sf.hwrotation=270
+ro.sf.hwrotation=0
 qemu.hw.mainkeys=0
 wifi.interface=wlan0

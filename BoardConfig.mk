@@ -48,7 +48,7 @@ DVFS_ENABLED:=1
 BUILD_JPEG_DECODER:= true
 endif
 
-CUSTOM_MODULES := libglib-2.0 libcmtspeechdata ofonod libofono-ril dbus-send
+CUSTOM_MODULES := libcmtspeechdata ofonod libofono-ril dbus-send
 CUSTOM_MODULES += gps.omap3 lights.omap3 sensors.omap3 hwcomposer.omap3
 CUSTOM_MODULES += audio.primary.omap3
 
