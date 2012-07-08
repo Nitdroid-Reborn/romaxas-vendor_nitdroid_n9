@@ -162,6 +162,10 @@ service dhcpcd_wlan0 /system/bin/logwrapper /system/bin/dhcpcd -AKBL
     disabled
     oneshot
 
+service omapfb /system/bin/omapupdater
+    class main
+    user root
+
 service reboot /system/bin/reboot -n
     oneshot
     disabled
